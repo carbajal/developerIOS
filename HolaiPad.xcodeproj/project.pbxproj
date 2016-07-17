@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B0A1C61D3BDCE7008E8F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0A1C51D3BDCE7008E8F1E /* AppDelegate.swift */; };
+		65B0A1C81D3BDCE7008E8F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0A1C71D3BDCE7008E8F1E /* ViewController.swift */; };
+		65B0A1CB1D3BDCE7008E8F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B0A1C91D3BDCE7008E8F1E /* Main.storyboard */; };
+		65B0A1CD1D3BDCE7008E8F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B0A1CC1D3BDCE7008E8F1E /* Assets.xcassets */; };
+		65B0A1D01D3BDCE7008E8F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B0A1CE1D3BDCE7008E8F1E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65B0A1C21D3BDCE7008E8F1E /* HolaiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B0A1C51D3BDCE7008E8F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65B0A1C71D3BDCE7008E8F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65B0A1CA1D3BDCE7008E8F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65B0A1CC1D3BDCE7008E8F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65B0A1CF1D3BDCE7008E8F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65B0A1D11D3BDCE7008E8F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B0A1BF1D3BDCE7008E8F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B0A1B91D3BDCE7008E8F1E = {
+			isa = PBXGroup;
+			children = (
+				65B0A1C41D3BDCE7008E8F1E /* HolaiPad */,
+				65B0A1C31D3BDCE7008E8F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B0A1C31D3BDCE7008E8F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B0A1C21D3BDCE7008E8F1E /* HolaiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B0A1C41D3BDCE7008E8F1E /* HolaiPad */ = {
+			isa = PBXGroup;
+			children = (
+				65B0A1C51D3BDCE7008E8F1E /* AppDelegate.swift */,
+				65B0A1C71D3BDCE7008E8F1E /* ViewController.swift */,
+				65B0A1C91D3BDCE7008E8F1E /* Main.storyboard */,
+				65B0A1CC1D3BDCE7008E8F1E /* Assets.xcassets */,
+				65B0A1CE1D3BDCE7008E8F1E /* LaunchScreen.storyboard */,
+				65B0A1D11D3BDCE7008E8F1E /* Info.plist */,
+			);
+			path = HolaiPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B0A1C11D3BDCE7008E8F1E /* HolaiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B0A1D41D3BDCE7008E8F1E /* Build configuration list for PBXNativeTarget "HolaiPad" */;
+			buildPhases = (
+				65B0A1BE1D3BDCE7008E8F1E /* Sources */,
+				65B0A1BF1D3BDCE7008E8F1E /* Frameworks */,
+				65B0A1C01D3BDCE7008E8F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaiPad;
+			productName = HolaiPad;
+			productReference = 65B0A1C21D3BDCE7008E8F1E /* HolaiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B0A1BA1D3BDCE7008E8F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NextU;
+				TargetAttributes = {
+					65B0A1C11D3BDCE7008E8F1E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 65B0A1BD1D3BDCE7008E8F1E /* Build configuration list for PBXProject "HolaiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B0A1B91D3BDCE7008E8F1E;
+			productRefGroup = 65B0A1C31D3BDCE7008E8F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B0A1C11D3BDCE7008E8F1E /* HolaiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B0A1C01D3BDCE7008E8F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B0A1D01D3BDCE7008E8F1E /* LaunchScreen.storyboard in Resources */,
+				65B0A1CD1D3BDCE7008E8F1E /* Assets.xcassets in Resources */,
+				65B0A1CB1D3BDCE7008E8F1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B0A1BE1D3BDCE7008E8F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B0A1C81D3BDCE7008E8F1E /* ViewController.swift in Sources */,
+				65B0A1C61D3BDCE7008E8F1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65B0A1C91D3BDCE7008E8F1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B0A1CA1D3BDCE7008E8F1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65B0A1CE1D3BDCE7008E8F1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B0A1CF1D3BDCE7008E8F1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65B0A1D21D3BDCE7008E8F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		65B0A1D31D3BDCE7008E8F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65B0A1D51D3BDCE7008E8F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65B0A1D61D3BDCE7008E8F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.HolaiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B0A1BD1D3BDCE7008E8F1E /* Build configuration list for PBXProject "HolaiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B0A1D21D3BDCE7008E8F1E /* Debug */,
+				65B0A1D31D3BDCE7008E8F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B0A1D41D3BDCE7008E8F1E /* Build configuration list for PBXNativeTarget "HolaiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B0A1D51D3BDCE7008E8F1E /* Debug */,
+				65B0A1D61D3BDCE7008E8F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B0A1BA1D3BDCE7008E8F1E /* Project object */;
+}
